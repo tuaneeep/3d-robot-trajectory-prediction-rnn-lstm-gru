@@ -38,3 +38,15 @@ The models were evaluated based on Mean Squared Error (MSE) and Mean Absolute Er
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+
+Train the models:
+
+Bash
+python train.py
+This script will train all three models and save them in the models/ directory.
+
+Evaluate and Predict:
+
+Bash
+python evaluate.py
+This script computes the MSE/MAE metrics and visualizes the prediction against ground truth.
